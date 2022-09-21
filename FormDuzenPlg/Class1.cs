@@ -27,6 +27,7 @@ namespace FormDuzenPlg
             while (true)
             {
                 PROP.winform.BackColor = renkler[rand.Next(0, renkler.Length)];
+                PROP.func(PROP.winform.BackColor.Name);
                 Thread.Sleep(1000);
             }
         }
