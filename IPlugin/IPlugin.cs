@@ -18,15 +18,15 @@ namespace IPlugin
         {
             return winform.BackColor;
         }
-        void setBackColor(Color color)
+        public void setBackColor(Color color)
         {
             winform.BackColor = color; 
         }
-        string getTitle()
+        public string getTitle()
         {
             return winform.Text;
         }
-        void setTitle(string text)
+        public void setTitle(string text)
         {
             winform.Text = text;
         }
